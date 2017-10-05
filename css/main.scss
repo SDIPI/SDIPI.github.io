@@ -42,7 +42,7 @@ body {
 
 .header-container {
   background-color: black;
-  background: url('../img/bg.jpg') no-repeat 50% 0;
+  background: url('../img/bg2.jpg') no-repeat 50% 0;
   color: #fff;
 
   h1 {
@@ -50,9 +50,14 @@ body {
   }
   // background-attachment: fixed;
   background-size: cover;
-  background-position: center 36%;
+  background-position: center 60%;
   margin-top: -37px;
 }
+
+.header-container div *:not(:last-child) {
+  text-shadow: 0 0 6px rgba(0, 0, 0, 0.35);
+}
+
 .navbar-container {
   font-size: 16px;
 }
@@ -83,4 +88,19 @@ body {
 }
 .navbar-form .has-feedback .form-control-feedback{
   top:10px
+}
+.button-home {
+  color: #941d39;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+.button-home:hover {
+  color: #f8f9fa;
+  background-color: #c62b2b;
+  border-color: #c62b2b;
+}
+.button-home:active, .button-home:hover:active {
+  color: #f8f9fa;
+  background-color: #f00000;
+  border-color: #f00000;
 }

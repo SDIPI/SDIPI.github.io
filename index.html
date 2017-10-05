@@ -1,13 +1,14 @@
 ---
 layout: default
+sectionid: index
 ---
 
 <div class="header-container jumbotron">
     <div class="container">
-        <h1>Jekyll Template for Project Websites</h1>
-        <p>Simple and modern design for publishing blog posts, documentation and many more things for your project.
-          You can now clone and start to create a website for your project like this one.</p>
-        <p><a class="btn btn-primary btn-lg" href="{{ "/docs/home/" | prepend: site.baseurl }}" role="button">Learn more</a></p>
+        <h1>Swiss Digital Identity and Privacy Institute</h1>
+        <p>The Swiss Digital Identity and Privacy Institute (SDIPI) is a nonprofit organization that cares about data privacy and online identity.</p>
+        <p><a class="btn btn-primary btn-lg button-home" href="{{ "/docs/home/" | prepend: site.baseurl }}"
+            role="button">Learn more</a></p>
     </div>
 </div>
 
@@ -15,22 +16,16 @@ layout: default
 <div class="container">
 
     <div class="row">
-        <div class="col-md-6">
-            <h2 class="header-light regular-pad">What is Jekyll?</h2>
+        <div class="col-md-12">
+            <h2 class="header-light regular-pad">What is the SDIPI?</h2>
             <blockquote>
-              <p>Jekyll is a simple, blog-aware, static site generator. It takes a template
-              directory containing raw text files in various formats, runs it through
-              a converter (like <a href="https://daringfireball.net/projects/markdown/">Markdown</a>)
-              and our <a href="https://github.com/Shopify/liquid/wiki">Liquid</a> renderer, and
-              spits out a complete, ready-to-publish static website suitable
-              for serving with your favorite web server. Jekyll also happens to be the engine
-              behind <a href="https://pages.github.com">GitHub Pages</a>, which means you can use Jekyll
-              to host your project’s page, blog, or website from GitHub’s servers <strong>for
-              free</strong>.</p>
+                <p>SDIPI is the shorthand for "Swiss Digital Identity and Privacy Institute".</p>
+                <p>
+                    &lt;What is digital identity and why we should care about privacy&gt;
+                </p>
+                <p>
+                    &lt;Who we are, why we started this and what we aim to accomplish&gt;
             </blockquote>
-        </div>
-        <div class="col-md-6 text-center">
-            <img src="img/jekyll-dark.png" alt="" class="img-responsive">
         </div>
     </div>
 
@@ -38,23 +33,23 @@ layout: default
 
     <div class="row">
         <div class="col-sm-4">
-            <h1 class="text-center"><i class="fa fa-pencil" aria-hidden="true"></i></h1>
-            <h3 class="text-center">Easy to install and publish</h3>
-            <p>Get started by clonening source into GitHub account of your project. Thanks to <a href="https://pages.github.com">GitHub Pages</a>,
-              it will be automatically compiled and publsihed under your project's subdomain on `github.io`.
+            <h1 class="text-center"><i class="fa fa-newspaper-o" aria-hidden="true"></i></h1>
+            <h3 class="text-center">Organization news</h3>
+            <p>We are an active organization and you can keep updated with what we're doing by visiting our
+                <a href="{{ "/news/" | prepend: site.baseurl }}">News</a> page.
             </p>
         </div>
         <div class="col-sm-4">
-            <h1 class="text-center"><i class="fa fa-cogs" aria-hidden="true"></i></h1>
-            <h3 class="text-center">Modular Styling and Templating</h3>
-            <p>This template uses <a href="https://github.com/twbs/bootstrap-sass">bootstrap-sass</a> along with <a href="https://bootswatch.com/">Bootwatch themes</a>.
-            You can change the theme or write your custom by overwriting bootstrap sass variables for different color set, font options, etc.</p>
+            <h1 class="text-center"><i class="fa fa-pencil" aria-hidden="true"></i></h1>
+            <h3 class="text-center">Our work</h3>
+            <p>
+                &lt;What we do : Explain "Mission" and "Studies"&gt;
+            </p>
         </div>
         <div class="col-sm-4">
-            <h1 class="text-center"><i class="fa fa-code-fork" aria-hidden="true"></i></h1>
-            <h3 class="text-center">Git based source control</h3>
-            <p>Leverege from Git version control system by
-              maintaining your documentation along with the source code; publish the page when you merge to the master branch.</p>
+            <h1 class="text-center"><i class="fa fa-user" aria-hidden="true"></i></h1>
+            <h3 class="text-center">Want to become a member ?</h3>
+            <p>If you want to become a member, go to the <a href="{{ "/contact/" | prepend: site.baseurl }}">Contact</a> page to tell us.</p>
         </div>
     </div>
 
