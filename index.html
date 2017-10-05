@@ -36,7 +36,7 @@ sectionid: index
             <h1 class="text-center"><i class="fa fa-newspaper-o" aria-hidden="true"></i></h1>
             <h3 class="text-center">Organization news</h3>
             <p>We are an active organization and you can keep updated with what we're doing by visiting our
-                <a href="{{ "/news/" | prepend: site.baseurl }}">News</a> page.
+                <a href="{{ site.posts.first.url | prepend: site.baseurl }}">News</a> page.
             </p>
         </div>
         <div class="col-sm-4">
@@ -49,7 +49,7 @@ sectionid: index
         <div class="col-sm-4">
             <h1 class="text-center"><i class="fa fa-user" aria-hidden="true"></i></h1>
             <h3 class="text-center">Want to become a member ?</h3>
-            <p>If you want to become a member, go to the <a href="{{ "/contact/" | prepend: site.baseurl }}">Contact</a> page to tell us.</p>
+            <p>If you want to become a member, go to the <a href="{{ "/contact.html" | prepend: site.baseurl }}">Contact</a> page to tell us.</p>
         </div>
     </div>
 
