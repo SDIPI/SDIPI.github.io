@@ -1,23 +1,11 @@
-# Jekyll Doc Theme
+# SDIPI website
 
-Go to [the website](https://aksakalli.github.io/jekyll-doc-theme/) for detailed information and demo.
+This repository contains the sources for the [SDIPI official website](http://www.sdipi.ch/).
+
+The website is generated with [Jekyll](https://jekyllrb.com/) and hosted using [GitHub Pages](https://pages.github.com/).
 
 ## Running locally
 
-You need Ruby and gem before starting, then:
+Make sure you have Ruby installed, plus `jekyll` and `bundler` as depenencies. Then use [Jekyll](https://jekyllrb.com/docs/quickstart/) to run the website :
 
-```bash
-# install bundler
-gem install bundler
-
-# clone the project
-git clone https://github.com/aksakalli/jekyll-doc-theme.git
-cd jekyll-doc-theme
-
-# run jekyll with dependencies
-bundle exec jekyll serve
-```
-
-## License
-
-Released under [the MIT license](LICENSE).
+    bundle exec jekyll serve
